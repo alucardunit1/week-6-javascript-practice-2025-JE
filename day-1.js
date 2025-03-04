@@ -28,12 +28,12 @@ function day1Part2() {
   customer.address = prompt("What is your address?");
   // Try it!
   // TODO: add a new question for the player. Assign the answer to the playerOne Object.
-  
+  customer.sex = prompt = ("M or F aligned?")
 
   
   // Try it!
   // TODO: add the answer to the new question to the innerHTML statment below.
-  messageParagraph.innerHTML = `Hi, ${customer.name}! Your current address is ${customer.address}.`;
+  messageParagraph.innerHTML = `Hi, ${customer.name}! Your current address is ${customer.address}. We will make ${customer.sex} recommendations`;
 }
 part2.onclick = day1Part2;
 
