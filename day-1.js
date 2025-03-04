@@ -11,7 +11,7 @@ function day1Part1() {
   playerOne.hiScore = prompt("What is your all time hi-score?");
   // Try it!
   // TODO: add a new question for the player. Assign the answer to the playerOne Object.
-
+  playerOne.lorR = prompt("Left or Right handed?")
 
   // Try it!
   // TODO: add the answer to the new question here.
@@ -44,10 +44,10 @@ function day1Part3() {
 
   // Try it!
   // TODO: create a prompt to ask about a pet
-
+  pet.name = prompt("What is your pets name?")
   // Try it!
   // TODO: make a message based on the answers to the prompt.
-  messageParagraph.innerHTML = ``;
+  messageParagraph.innerHTML = `We will change your controls for ${playerOne.lorR} handed play`;
 }
 part3.onclick = day1Part3;
 
@@ -56,8 +56,9 @@ part3.onclick = day1Part3;
 // TODO: add your own idea for a prompt. Use an object to store the user's response.
 function day1Part4() {
   alert("hello!");
-
-  
+  let favAnimal = {};
+  favAnimal.name = prompt("Please input your favorite animal name.");
+  messageParagraph0.innerHTML = `Cool I also like ${favAnimal.name}`;
 }
 
 part4.onclick = day1Part4;
